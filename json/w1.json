@@ -1,0 +1,92 @@
+[
+    {
+        "selfBugCount": 5,
+        "allBugCount": 20,
+        "resolver": "孙红伟",
+        "bugIds": [
+            1271,
+            1269,
+            1264,
+            1257,
+            1254
+        ],
+        "resolveBugCount": 5,
+        "noResolveBugCount": 0,
+        "resolutionRate": 1
+    },
+    {
+        "selfBugCount": 3,
+        "allBugCount": 20,
+        "resolver": "李海",
+        "bugIds": [
+            1270,
+            1265,
+            1260
+        ],
+        "resolveBugCount": 3,
+        "noResolveBugCount": 0,
+        "resolutionRate": 1
+    },
+    {
+        "selfBugCount": 4,
+        "allBugCount": 20,
+        "resolver": "盛文浩",
+        "bugIds": [
+            1258,
+            1192,
+            1141,
+            1139
+        ],
+        "resolveBugCount": 3,
+        "noResolveBugCount": 1,
+        "resolutionRate": 0.75
+    },
+    {
+        "selfBugCount": 5,
+        "allBugCount": 20,
+        "resolver": "李威豪",
+        "bugIds": [
+            1268,
+            1267,
+            1266,
+            1259,
+            1256
+        ],
+        "resolveBugCount": 5,
+        "noResolveBugCount": 0,
+        "resolutionRate": 1
+    },
+    {
+        "selfBugCount": 1,
+        "allBugCount": 20,
+        "resolver": "蒋京辰",
+        "bugIds": [
+            1262
+        ],
+        "resolveBugCount": 1,
+        "noResolveBugCount": 0,
+        "resolutionRate": 1
+    },
+    {
+        "selfBugCount": 1,
+        "allBugCount": 20,
+        "resolver": "舒元靖",
+        "bugIds": [
+            1261
+        ],
+        "resolveBugCount": 1,
+        "noResolveBugCount": 0,
+        "resolutionRate": 1
+    },
+    {
+        "selfBugCount": 1,
+        "allBugCount": 20,
+        "resolver": "蒋照",
+        "bugIds": [
+            1255
+        ],
+        "resolveBugCount": 1,
+        "noResolveBugCount": 0,
+        "resolutionRate": 1
+    }
+]
