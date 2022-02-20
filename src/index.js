@@ -11,6 +11,7 @@ const titles = bugs[0];
 const data = createObject(bugs, {
     resolverIndex: getIndex(titles, "解决者"),
     bugIdIndex: getIndex(titles, "Bug编号"),
-    bugStateIndex: getIndex(titles, "Bug状态")
+    bugStateIndex: getIndex(titles, "Bug状态"),
+    assignedIndex: getIndex(titles, "指派给")
 });
 fs.writeFile(resolve(`../json/${name}.json`), JSON.stringify(data));
