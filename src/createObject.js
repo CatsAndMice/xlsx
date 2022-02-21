@@ -1,4 +1,5 @@
 const { eq, isEmpty } = require("medash");
+const { log } = require('console')
 const bugStates = new Set(['已解决', '已关闭']);
 //计算解决率:已解决bug数/本人总共的bug数
 const resolutionRate = (resolveBugCount, selfBugCount) => {
@@ -23,14 +24,15 @@ const setValue = ({ maps, resolver, bugId, allBugCount, isResolve }) => {
         value.resolutionRate = resolutionRate(value.resolveBugCount, value.selfBugCount)
         return
     }
+    const resolveBugCount = isResolve ? 1 : 0;
     maps.set(resolver, {
         selfBugCount: 1,
         allBugCount,
         resolver,
         bugIds: [bugId],
-        resolveBugCount: isResolve ? 1 : 0,
+        resolveBugCount,
         noResolveBugCount: isResolve ? 0 : 1,
-        resolutionRate: resolutionRate(this.resolveBugCount, this.selfBugCount)
+        resolutionRate: resolutionRate(resolveBugCount, 1)
     })
 }
 

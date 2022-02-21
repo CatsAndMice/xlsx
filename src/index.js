@@ -3,7 +3,7 @@ const nodeXlsx = require('node-xlsx');
 const path = require("path");
 const getIndex = require("./getIndex");
 const createObject = require('./createObject');
-const name = 'w1'
+const name = 'w4'
 const resolve = (value) => path.join(__dirname, value);
 const workSheetsFromFile = nodeXlsx.parse(resolve(`../xlsx/${name}.xlsx`));
 const bugs = workSheetsFromFile[0].data;
