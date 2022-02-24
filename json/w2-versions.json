@@ -1,0 +1,200 @@
+[
+    {
+        "version": "V1.39",
+        "counsts": 11,
+        "user": [
+            {
+                "counts": 8,
+                "owned": "李威豪",
+                "bugIds": [
+                    1285,
+                    1284,
+                    1282,
+                    1279,
+                    1278,
+                    1277,
+                    1276,
+                    1275
+                ],
+                "resolveBugCount": 8,
+                "resolutionRate": 1
+            },
+            {
+                "counts": 2,
+                "owned": "盛文浩",
+                "bugIds": [
+                    1283,
+                    1280
+                ],
+                "resolveBugCount": 2,
+                "resolutionRate": 1
+            },
+            {
+                "counts": 1,
+                "owned": "李海",
+                "bugIds": [
+                    1273
+                ],
+                "resolveBugCount": 1,
+                "resolutionRate": 1
+            }
+        ]
+    },
+    {
+        "version": "主干",
+        "counsts": 20,
+        "user": [
+            {
+                "counts": 1,
+                "owned": "舒元靖",
+                "bugIds": [
+                    1274
+                ],
+                "resolveBugCount": 1,
+                "resolutionRate": 1
+            },
+            {
+                "counts": 3,
+                "owned": "李海",
+                "bugIds": [
+                    1272,
+                    1247,
+                    1235
+                ],
+                "resolveBugCount": 3,
+                "resolutionRate": 1
+            },
+            {
+                "counts": 5,
+                "owned": "李威豪",
+                "bugIds": [
+                    1268,
+                    1266,
+                    1259,
+                    1256,
+                    1249
+                ],
+                "resolveBugCount": 5,
+                "resolutionRate": 1
+            },
+            {
+                "counts": 7,
+                "owned": "孙红伟",
+                "bugIds": [
+                    1264,
+                    1257,
+                    1254,
+                    1244,
+                    1240,
+                    1239,
+                    1236
+                ],
+                "resolveBugCount": 7,
+                "resolutionRate": 1
+            },
+            {
+                "counts": 3,
+                "owned": "盛文浩",
+                "bugIds": [
+                    1258,
+                    1252,
+                    1251
+                ],
+                "resolveBugCount": 3,
+                "resolutionRate": 1
+            },
+            {
+                "counts": 1,
+                "owned": "蒋照",
+                "bugIds": [
+                    1255
+                ],
+                "resolveBugCount": 1,
+                "resolutionRate": 1
+            }
+        ]
+    },
+    {
+        "version": "V1.38",
+        "counsts": 6,
+        "user": [
+            {
+                "counts": 1,
+                "owned": "孙红伟",
+                "bugIds": [
+                    1271
+                ],
+                "resolveBugCount": 1,
+                "resolutionRate": 1
+            },
+            {
+                "counts": 3,
+                "owned": "李海",
+                "bugIds": [
+                    1270,
+                    1265,
+                    1260
+                ],
+                "resolveBugCount": 3,
+                "resolutionRate": 1
+            },
+            {
+                "counts": 1,
+                "owned": "蒋京辰",
+                "bugIds": [
+                    1262
+                ],
+                "resolveBugCount": 1,
+                "resolutionRate": 1
+            },
+            {
+                "counts": 1,
+                "owned": "舒元靖",
+                "bugIds": [
+                    1261
+                ],
+                "resolveBugCount": 1,
+                "resolutionRate": 1
+            }
+        ]
+    },
+    {
+        "version": "生产环境",
+        "counsts": 2,
+        "user": [
+            {
+                "counts": 1,
+                "owned": "孙红伟",
+                "bugIds": [
+                    1269
+                ],
+                "resolveBugCount": 1,
+                "resolutionRate": 1
+            },
+            {
+                "counts": 1,
+                "owned": "盛文浩",
+                "bugIds": [
+                    1243
+                ],
+                "resolveBugCount": 1,
+                "resolutionRate": 1
+            }
+        ]
+    },
+    {
+        "version": "V1.39\nV1.38",
+        "counsts": 1,
+        "user": [
+            {
+                "counts": 1,
+                "owned": "李威豪",
+                "bugIds": [
+                    1267
+                ],
+                "resolveBugCount": 1,
+                "resolutionRate": 1
+            }
+        ]
+    }
+]

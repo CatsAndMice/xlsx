@@ -1,0 +1,28 @@
+[
+    {
+        "owned": "孙红伟",
+        "bugIds": [
+            {
+                "bugId": 1269,
+                "resolutionTime": 20,
+                "isResolve": 1,
+                "precedence": "中",
+                "createDate": "2022-02-17 17:26:21",
+                "resolutionDate": "2022-02-17 17:46:42"
+            }
+        ]
+    },
+    {
+        "owned": "盛文浩",
+        "bugIds": [
+            {
+                "bugId": 1243,
+                "resolutionTime": 35,
+                "isResolve": 1,
+                "precedence": "高",
+                "createDate": "2022-02-11 08:56:18",
+                "resolutionDate": "2022-02-11 09:31:28"
+            }
+        ]
+    }
+]
