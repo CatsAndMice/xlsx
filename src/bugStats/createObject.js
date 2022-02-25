@@ -75,7 +75,7 @@ const getVersions = (versionsMap, ...rest) => {
     return { versions: toArray(versionInfo.values()), versionCounst: counts, master };
 }
 
-module.exports = (data = [], { ownedIndex, bugIdIndex, bugStateIndex, assignedIndex, effectVersionIndex, assignIndex, precedenceIndex, resolutionIndex, createIndex }) => {
+module.exports = async (data = [], { ownedIndex, bugIdIndex, bugStateIndex, assignedIndex, effectVersionIndex, assignIndex, precedenceIndex, resolutionIndex, createIndex }) => {
     const versionsMap = new Map();
     const allBugCounts = data.length;
     data.slice(1).forEach(val => {
